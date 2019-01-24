@@ -14,7 +14,7 @@ export class FormUserDetails extends Component {
   render() {
     const { values, handleChange } = this.props; 
     return (
-      <MuiThemeProvider style={styles.provider} >
+      <MuiThemeProvider style={styles.provider}  >
         <React.Fragment >
           <AppBar title="Enter user details" />
           <TextField

@@ -40,7 +40,7 @@ export class UserForm extends Component {
         switch(step) {
             case 1: 
                 return (
-                    <FormUserDetails
+                    <FormUserDetails 
                         nextStep = { this.nextStep }
                         handleChange = { this.handleChange }
                         values = { values }
